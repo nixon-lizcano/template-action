@@ -20,7 +20,7 @@ jobs:
           # Set the required variables
           repo_owner="nixon-lizcano" 
           repo_name="action-target"  
-          event_type="${{ github.event.inputs.target_service }}"
+          event_type="trigger-workflow"
           service="${{ github.event.inputs.target_service }}"
           #version="${{ github.event.inputs.target_version }}"
   
